@@ -3,11 +3,11 @@
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
-#define BLYNK_AUTH_TOKEN "tTuJgxiMXQsIZ8fR0BnTIzr6oI-tvL01" //Enter your blynk auth token
+#define BLYNK_AUTH_TOKEN "AUTH_TOKEN" //Enter your blynk auth token
 
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "GNXS-893470";//Enter your WIFI name
-char pass[] = "1234567890";//Enter your WIFI password
+char ssid[] = "WIFI_NAME";//Enter your WIFI name
+char pass[] = "WIFI_PASS";//Enter your WIFI password
 
 //Get the button value
 BLYNK_WRITE(V0) {
